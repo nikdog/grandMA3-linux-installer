@@ -5,11 +5,31 @@ Only tested on Debian 12 & Arch Linux
 #### Check hardware requirements: https://help2.malighting.com/Page/grandMA3/onpc_system_requirements/en/
 
 #### Update your packages:
+##### Arch Linux
+```
+yay -Syu
+```
+*Alternatively, using pacman:*
+
+```
+sudo pacman -Syu
+```
+##### Debian 12
 ```
 apt update && apt upgrade
 ```
 
 #### Install required packages:
+##### Arch Linux
+```
+yay -S unzip libxml2
+```
+*Alternatively, using pacman:*
+
+```
+sudo pacman -S unzip libxml2
+```
+##### Debian 12
 ```
 apt install unzip libxml2-utils sudo
 ```
