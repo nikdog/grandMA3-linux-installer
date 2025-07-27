@@ -1,4 +1,4 @@
-Only tested on Debian 12
+Only tested on Debian 12 & Arch Linux
 
 ## Requirements
 
@@ -19,9 +19,9 @@ apt install unzip libxml2-utils sudo
 Only works in root for now, sorry.
 
 - Clone this repository
-- Download grandMA3 v2.1.1.2 console software (https://www.malighting.com/downloads/products/grandma3/)
+- Download grandMA3 v2.2.5.2 console software (https://www.malighting.com/downloads/products/grandma3/)
 - Start `sudo ./installScript.sh`
-- You can start gma3 with `gma3_2.1.1` command
+- You can start gma3 with `gma3_2.2.5` command
 
 ## Add GNOME Launcher icon
 
